@@ -2,6 +2,8 @@ import random
 from time import sleep
 
 import pygame
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 
 class CarRacing:
