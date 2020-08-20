@@ -1,9 +1,16 @@
 import random
 from time import sleep
-
 import pygame
+
 import os
 os.environ["SDL_VIDEODRIVER"] = "dummy"
+pygame.init()
+pygame.display.set_mode((1,1))
+
+while 1:
+    events = pygame.event.get()
+    for e in events:
+        pass
 
 
 class CarRacing:
